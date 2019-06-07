@@ -16,17 +16,20 @@ home_endpoint = 'https://www.icloud.com'
 
 
 
-this_headers = {'User-Agent': 'Linux', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Origin': 'https://www.icloud.com', 'Referer': 'https://www.icloud.com/'}
+this_headers = {
+			'User-Agent': 'Linux', 
+			'Accept-Encoding': 'gzip, deflate', 
+			'Accept': '*/*', 'Connection': 'keep-alive', 
+			'Origin': 'https://www.icloud.com', 
+			'Referer': 'https://www.icloud.com/'
+			}
 
 this_params = {
             'clientBuildNumber': '17DHotfix5',
             'clientMasteringNumber': '17DHotfix5',
             'ckjsBuildVersion': '17DProjectDev77',
-            'ckjsVersion': '2.0.5'
-            
+            'ckjsVersion': '2.0.5'     
 }
-
-
 
 
 payload = {
